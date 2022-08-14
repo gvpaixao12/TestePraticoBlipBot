@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlipBot.API", "src\BlipBot\BlipBot.API.csproj", "{F51241B7-BDD8-4DA7-A574-F29281B9B915}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - App", "1 - App", "{B28AA39F-18BF-4E24-8657-130FD588F9D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Service", "2 - Service", "{2C02BFA8-AAA9-4B1A-B082-29524980A0F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlitBot.Service", "src\BlitBot.Service\BlitBot.Service.csproj", "{DBA8CB9D-36C3-4BEC-83EC-31154CC78F76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{C9F264AF-C9B6-45C5-9B23-E8B2C9E2BA21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlipBot.API.Service", "Testes\BlipBot.API.Service\BlipBot.API.Service.csproj", "{0FA7B90B-458E-40A1-99CB-43C7B68E1A36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F51241B7-BDD8-4DA7-A574-F29281B9B915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51241B7-BDD8-4DA7-A574-F29281B9B915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51241B7-BDD8-4DA7-A574-F29281B9B915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51241B7-BDD8-4DA7-A574-F29281B9B915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA8CB9D-36C3-4BEC-83EC-31154CC78F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA8CB9D-36C3-4BEC-83EC-31154CC78F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA8CB9D-36C3-4BEC-83EC-31154CC78F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA8CB9D-36C3-4BEC-83EC-31154CC78F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA7B90B-458E-40A1-99CB-43C7B68E1A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA7B90B-458E-40A1-99CB-43C7B68E1A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA7B90B-458E-40A1-99CB-43C7B68E1A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA7B90B-458E-40A1-99CB-43C7B68E1A36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F51241B7-BDD8-4DA7-A574-F29281B9B915} = {B28AA39F-18BF-4E24-8657-130FD588F9D5}
+		{DBA8CB9D-36C3-4BEC-83EC-31154CC78F76} = {2C02BFA8-AAA9-4B1A-B082-29524980A0F6}
+		{0FA7B90B-458E-40A1-99CB-43C7B68E1A36} = {C9F264AF-C9B6-45C5-9B23-E8B2C9E2BA21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E3B1222-82DE-4C9F-B11E-8E5355585128}
+	EndGlobalSection
+EndGlobal
